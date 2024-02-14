@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(pexels-marcus-herzberg-1058277.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.header{
+   position: fixed;
+   top: 0px;
+  
+   left: 0;
+   border-radius: 0px 0px 25px 25px ;
+   
+   width: 100%;
+   padding: 20px 100px;
+   /*background: green;*/
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+    display: flex;
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.24);
+    
+}
+
+.logo{
+
+}
+
+.navbar a{
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+
+.about-sec{
+    color: #fff;
+    font-size: 32px;
+    min-width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 150px 50px 150px;
+    
+    margin-top: 250px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.24);
+    
+}
+
+article{
+    height: 125vh;
+    margin-top: 400px;
+    background: url(menuuu3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.particulars{
+   
+}
+
+
+.particulars h2{
+    color: #fff;
+    font-size: 32px;
+
+}
+
+
+.particulars p{
+    color: #fff;
+    font-size: 24px;
+    
+    
+
+}
+
+.comments{
+    max-width: 450px;
+    margin-left: 75px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all ease 0.4s;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.24);
+padding:60px;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+
+
+
+.comments:hover{
+   /* From https://css.glass */
+background: rgba(0, 0, 0, 0.73);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 7%;
+}
+
+
+
+
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    color:#fff ;
+    padding: 35px;
+    background: #000;
+}
+
+
